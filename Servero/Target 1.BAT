@@ -1,0 +1,31 @@
+SET PATH=D:\MDK523\ARM\ARMCC\Bin;E:\Python-release\Scripts\;E:\Python-release\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;E:\matlab2015b\bin;E:\Xshell\;E:\Xftp\;C:\Users\peng\AppData\Local\Microsoft\WindowsApps;;E:\PyCharm\PyCharm Community Edition 2020.3\bin;
+SET CPU_TYPE=STM32F103C8
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=Target 1
+SET CPU_CLOCK=0x007A1200
+"D:\MDK523\ARM\ARMCC\Bin\ArmAsm" --Via ".\output\startup_stm32f10x_md._ia"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\core_cm3.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\system_stm32f10x.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\delay.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\sys.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\usart.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\main.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\app_motor.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\bsp.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\bsp_gpio.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\bsp_motor.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\bsp_servo.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\bsp_timer.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\bsp_colorful.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\misc.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_adc.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_bkp.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_can.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_cec.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_crc.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_dac.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_dbgmcu.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_dma.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_exti.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmCC" --Via ".\output\stm32f10x_flash.__i"
+"D:\MDK523\ARM\ARMCC\Bin\ArmLink" --Via ".\output\TB6612FNG.lnp"
